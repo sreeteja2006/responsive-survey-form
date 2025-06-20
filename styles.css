@@ -1,0 +1,124 @@
+.blog-post-card{
+    background-color: white;
+    border-radius: 8px;
+    width: 100vw;
+    text-align: center;
+}
+.post-img{
+    width: 100vw;
+    border-bottom: 10px solid black;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+.post-content{
+    padding: 20px;
+}
+.post-title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: brown;
+}
+.post-excerpt{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: brown;
+}
+.read-more{
+    border-color: black;
+    color: blue;
+    background-color: white;
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.read-more:hover{
+    background-color: black;
+    color: white;
+}
+
+.survey-container {
+  background: #fff;
+  max-width: 480px;
+  margin: 48px auto;
+  padding: 2.5rem 2rem 2rem 2rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+  border: 1px solid #e5e7eb;
+}
+
+#title {
+  text-align: center;
+  color: #b91c1c;
+  margin-bottom: 1rem;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+#description {
+  text-align: center;
+  color: #374151;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  opacity: 0.85;
+}
+
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  padding: 0.7rem;
+  border: 1.5px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #f3f4f6;
+  margin-top: 0.2rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 0.5em;
+  accent-color: #2563eb;
+}
+
+button#submit {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 0.9rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background 0.2s;
+}
+button#submit:hover {
+  background: #1d4ed8;
+}
+
+label {
+  font-weight: 500;
+  color: #374151;
+}
+
+textarea {
+  resize: vertical;
+}

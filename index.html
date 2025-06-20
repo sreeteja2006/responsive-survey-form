@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="survey-container">
+    <h1 id="title">Personal Survey Form</h1>
+    <p id="description">We value your feedback! Please fill out this short survey to help us improve your experience.</p>
+    <form id="survey-form">
+      <div class="form-group">
+        <label id="name-label" for="name">Name</label>
+        <input id="name" name="name" type="text" placeholder="Enter your name" required>
+      </div>
+      <div class="form-group">
+        <label id="email-label" for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label id="number-label" for="number">Age</label>
+        <input id="number" name="number" type="number" min="10" max="120" placeholder="Enter your age">
+      </div>
+      <div class="form-group">
+        <label for="dropdown">Which option best describes you?</label>
+        <select id="dropdown" name="role" required>
+          <option value="">Select an option</option>
+          <option value="student">Student</option>
+          <option value="professional">Professional</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>How did you hear about us?</label>
+        <label><input type="radio" name="referrer" value="friend" required> Friend</label>
+        <label><input type="radio" name="referrer" value="internet"> Internet</label>
+      </div>
+      <div class="form-group">
+        <label>What features do you use?</label>
+        <label><input type="checkbox" name="features" value="news"> News</label>
+        <label><input type="checkbox" name="features" value="blog"> Blog</label>
+        <label><input type="checkbox" name="features" value="forum"> Forum</label>
+      </div>
+      <div class="form-group">
+        <label for="comments">Comments</label>
+        <textarea id="comments" name="comments" rows="3" placeholder="Your comments..."></textarea>
+      </div>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
